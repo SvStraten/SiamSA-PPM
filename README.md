@@ -1,6 +1,6 @@
 # SiamSA-PPM
 
-This is the official GitHub repository for SIAMese learning with Statistical Augmentation for Predictive Process Monitoring (SimSA-PPM)
+This is the official GitHub repository for SIAMese learning with Statistical Augmentation for Predictive Process Monitoring (SiamSA-PPM)
 
 ![The Framework](framework.png)
 
@@ -19,7 +19,19 @@ This script accepts several command-line arguments:
 
 ```
 
-## **Commands for Pretraining**
+## **Command for Pre-Training**
 ```
 python pretraining.py --dataName "sepsis"
+```
+
+## **Command for Training on Next Activity or Final Outcome Prediction**
+```
+python train_nap.py --dataName "sepsis"
+python train_fop.py --dataName "sepsis"
+```
+
+## **Command for Evaluation on Next Activity or Final Outcome Prediction**
+```
+python eval_nap.py --dataName "sepsis"
+python eval_fop.py --dataName "sepsis"
 ```

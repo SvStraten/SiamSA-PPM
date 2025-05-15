@@ -27,11 +27,15 @@ python pretraining.py --dataName "sepsis"
 ## **Command for Training on Next Activity or Final Outcome Prediction**
 ```
 python train_nap.py --dataName "sepsis"
+```
+```
 python train_fop.py --dataName "sepsis"
 ```
 
 ## **Command for Evaluation on Next Activity or Final Outcome Prediction**
 ```
 python eval_nap.py --dataName "sepsis"
+```
+```
 python eval_fop.py --dataName "sepsis"
 ```

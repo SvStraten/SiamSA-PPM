@@ -104,5 +104,5 @@ for i in range(repetitions):
         callbacks=[early_stopper]
     )
 
-    linear_model.save(os.path.join(f"NAPModels/{dataName}_nap_{i}.keras"))
+    linear_model.save(os.path.join(f"FOPModels/{dataName}_fop_{i}.keras"))
     print("Model saved.")

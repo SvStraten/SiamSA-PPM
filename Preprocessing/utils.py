@@ -71,7 +71,7 @@ def check_gpu():
     else:
         print("No GPU found. Using CPU.")
 
-def evaluate_per_k(model, test_df, data, x_word_dict, y_word_dict, max_case_length, method):
+def evaluate_per_k(model, test_df, data, x_word_dict, y_word_dict, max_case_length):
 
     k, accuracies, fscores, precisions, recalls = [], [], [], [], []
 
@@ -101,7 +101,7 @@ def evaluate_per_k(model, test_df, data, x_word_dict, y_word_dict, max_case_leng
         "recalls": recalls
     }
 
-def evaluate_global(model, test_df, data, x_word_dict, y_word_dict, max_case_length, method):
+def evaluate_global(model, test_df, data, x_word_dict, y_word_dict, max_case_length):
     all_preds = []
     all_trues = []
 
@@ -132,7 +132,7 @@ def evaluate_global(model, test_df, data, x_word_dict, y_word_dict, max_case_len
         "inference_time": elapsed_time  
     }
 
-def evaluate_per_k_fop(model, test_df, data, x_word_dict, y_word_dict, max_case_length, method):
+def evaluate_per_k_fop(model, test_df, data, x_word_dict, y_word_dict, max_case_length):
     from sklearn import metrics
     import numpy as np
 
@@ -166,7 +166,7 @@ def evaluate_per_k_fop(model, test_df, data, x_word_dict, y_word_dict, max_case_
 
     return all_label_results
 
-def evaluate_global_fop(model, test_df, data, x_word_dict, y_word_dict, max_case_length, method):
+def evaluate_global_fop(model, test_df, data, x_word_dict, y_word_dict, max_case_length):
     all_preds = []
     all_trues = []
 

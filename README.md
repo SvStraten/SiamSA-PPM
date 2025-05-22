@@ -6,7 +6,7 @@ This is the official GitHub repository for SIAMese learning with Statistical Aug
 
 ## Datasets
 
-All the preprocessed datasets can be downloaded from the following [Google Drive link](https://drive.google.com/drive/folders/1KH_tGC7SPEwpH0E9F0gZMLEbGOebnCn-?usp=share_link) TO BE ADDED. After downloading, locate the folders in the main folder of your environment.
+All the preprocessed datasets can be downloaded from the following [Google Drive link](https://drive.google.com/drive/folders/1KH_tGC7SPEwpH0E9F0gZMLEbGOebnCn-?usp=share_link). After downloading, locate the folders in the main folder of your environment.
 
 
 ## Command-Line Arguments

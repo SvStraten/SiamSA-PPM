@@ -14,8 +14,8 @@ All the raw and preprocessed datasets can be downloaded from the following [Goog
 This script accepts several command-line arguments:
 
 ```
---dataset| "sepsis" | Name of the dataset in lowercase letters. 
---STRATEGY| "combi" | Ours is named "combi", if you want to use only random augmentation use "random".
+--dataset | "sepsis" | Name of the dataset in lowercase letters. 
+--STRATEGY | "combi" | Ours is named "combi", if you want to use only random augmentation use "random".
 
 ```
 

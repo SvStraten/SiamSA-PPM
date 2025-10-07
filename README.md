@@ -1,8 +1,12 @@
 # SiamSA-PPM
 
-This is the official GitHub repository for SIAMese learning with Statistical Augmentation for Predictive Process Monitoring (SiamSA-PPM).
+This is the official GitHub repository for **SIAMese learning with Statistical Augmentation for Predictive Process Monitoring (SiamSA-PPM)**.
+
+📄 The paper *“Leveraging Data Augmentation and Siamese Learning for Predictive Process Monitoring”* has been **accepted at the 31st International Conference on Cooperative Information Systems (CoopIS 2025)**.  
+You can read it on [arXiv](https://arxiv.org/abs/2507.18293).
 
 ![The Framework](framework.png)
+
 
 ## Datasets
 
